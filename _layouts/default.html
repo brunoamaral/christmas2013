@@ -3,8 +3,14 @@
   <div id="wrap">
       <div class="container">
 
-          {{ content }}
+      	<div class="col-md-12">
+        {{ content }}
   
+		{% include share_buttons.html %}
+
+		{% include comments.html %}
+      	</div>
+
     <div class="col-md-12"><p class="text-center"><a class="btn btn-default" href="{{ site.url }}">Home</a></p></div>
 
   </div><!-- /.container -->
