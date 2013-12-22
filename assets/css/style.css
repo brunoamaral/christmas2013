@@ -63,6 +63,10 @@ word-spacing: 0em;
 line-height: 1.4;
 }
 
+body h2{
+  color:#FF0000;
+}
+
 #footer p a, #footer a {
 	  color: #999999;
 }
