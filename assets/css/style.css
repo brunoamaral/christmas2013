@@ -1,0 +1,36 @@
+/* Fonts *
+
+@font-face{
+	font-family: 'Helvetica Neue Lt Std Condensed';
+	src: url('../fonts/HELVETICANEUELTSTD-CN.OTF') format('opentype');
+}
+
+@font-face{
+	font-family: 'Helvetica Neue Lt Std Bold Condensed';
+	src: url('../fonts/HELVETICANEUELTSTD-BDCN.OTF') format('opentype');
+	font-weight: bold;
+}
+
+/**/
+
+/* HTML tags */
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oxygen', sans-serif;
+
+/*	font-family: 'Helvetica Neue Lt Std Condensed', Helvetica, sans serif;*/
+}
+
+body, p{
+	font-family: 'Arvo', serif;
+}
+
+/**/
+
+/* Classes */
+
+.text-justify{
+	text-align: justify;
+	hyphens: auto;
+}
+
+/**/
