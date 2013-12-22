@@ -1,3 +1,11 @@
 name: Christmas 2013 Project
 pygments: true
 baseurl: /christmas2013
+
+url: http://brunoamaral.github.io/christmas2013
+description: Lisbon Stories. Tales and short stories from Portugal.
+author: 
+copyright: 
+rss_path: /feed
+rss_name:
+rss_post_limit: 10
