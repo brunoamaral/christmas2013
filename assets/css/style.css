@@ -101,3 +101,13 @@ line-height: 1.4;
     height: 100%;
 }
 /**/
+
+/* share buttons */
+.fb-like, .twitter-share-button, .google_plus{
+  float: left;
+}
+.share_buttons{
+  padding-top: 10px;
+  width: 320px;
+}
+/**/
