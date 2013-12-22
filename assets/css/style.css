@@ -1,27 +1,70 @@
-/* Fonts *
+/* Sticky footer styles
+-------------------------------------------------- */
 
-@font-face{
-	font-family: 'Helvetica Neue Lt Std Condensed';
-	src: url('../fonts/HELVETICANEUELTSTD-CN.OTF') format('opentype');
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
 }
 
-@font-face{
-	font-family: 'Helvetica Neue Lt Std Bold Condensed';
-	src: url('../fonts/HELVETICANEUELTSTD-BDCN.OTF') format('opentype');
-	font-weight: bold;
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -90px;
+  /* Pad bottom by footer height */
+  padding: 0 0 90px;
 }
 
-/**/
-
-/* HTML tags */
-h1, h2, h3, h4, h5, h6{
-	font-family: 'Oxygen', sans-serif;
-
-/*	font-family: 'Helvetica Neue Lt Std Condensed', Helvetica, sans serif;*/
+/* Set the fixed height of the footer here */
+#footer {
+  height: 90px;
+  background-color: #000;
 }
 
-body, p{
-	font-family: 'Arvo', serif;
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Fonts */
+body p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-transform: none;
+text-decoration: none;
+letter-spacing: 0em;
+word-spacing: 0em;
+line-height: 1.4;
+}
+
+body h2, h3, h4, h5, h6{
+
+font-family: 'Great Vibes', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+text-transform: none;
+text-decoration: none;
+letter-spacing: 0em;
+word-spacing: 0em;
+line-height: 1.4;
+}
+
+#footer p a {
+	  color: #999999;
 }
 
 /**/
